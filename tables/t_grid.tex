@@ -1,0 +1,13 @@
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l l r rrrr rrr}
+\toprule
+ & & & \multicolumn{4}{c}{Mean RMSE (all nodes)} & \multicolumn{3}{c}{$\Delta$ of SSJT (\%) against}\\
+\cmidrule(lr){4-7}\cmidrule(lr){8-10}
+Trees & Base model & Runs & Base & MinT-Fix & MinT-Shrink & SSJT & Base & MinT-Fix & MinT-Shrink\\
+\midrule
+Balanced & AutoETS & 300 & 5.495 & 5.564 & 5.465 & \textbf{5.453} & \textbf{$-$0.76}$^{\ast}$ & \textbf{$-$2.01}$^{\ast}$ & \textbf{$-$0.22}\\
+Balanced & AutoARIMA & 300 & 5.465 & 5.604 & \textbf{5.434} & 5.440 & \textbf{$-$0.47}$^{\ast}$ & \textbf{$-$2.93}$^{\ast}$ & +0.11\\
+Imbalanced & AutoETS & 340 & 5.669 & 5.705 & 5.626 & \textbf{5.620} & \textbf{$-$0.86}$^{\ast}$ & \textbf{$-$1.49}$^{\ast}$ & \textbf{$-$0.10}\\
+Imbalanced & AutoARIMA & 340 & 5.643 & 5.735 & \textbf{5.604} & 5.606 & \textbf{$-$0.66}$^{\ast}$ & \textbf{$-$2.25}$^{\ast}$ & +0.03\\
+\bottomrule
+\end{tabular}

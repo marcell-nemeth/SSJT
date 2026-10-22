@@ -1,0 +1,8 @@
+# versions used for the results in results/ (Python 3.11)
+numpy==2.4.4
+scipy==1.17.1
+pandas==2.3.3
+statsforecast==2.1.1
+matplotlib==3.10.9
+h5py==3.16.0
+pytest>=7

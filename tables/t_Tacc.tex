@@ -1,0 +1,16 @@
+\small
+\begin{tabular}{l r r rrr}
+\toprule
+Dataset & $T$ & estimated $\lambda$ & MinT-Fix & MinT-Shrink & SSJT\\
+\midrule
+BDG2 hourly & 500 & 0.0339 & 307.3 & 321.8 & \textbf{291.8}\\
+BDG2 hourly & 2\,000 & 0.0112 & 320.9 & 358.0 & \textbf{293.7}\\
+BDG2 hourly & 6\,000 & 0.0074 & 326.1 & 382.1 & \textbf{297.4}\\
+\multicolumn{3}{l}{\quad base forecasts (independent of $T$)} & \multicolumn{3}{c}{298.6}\\
+\midrule
+LargeST hourly & 500 & 0.0216 & 27\,810 & 27\,133 & \textbf{27\,106}\\
+LargeST hourly & 2\,000 & 0.0055 & 27\,188 & \textbf{26\,341} & 27\,104\\
+LargeST hourly & 6\,000 & 0.0019 & 29\,446 & 32\,446 & \textbf{27\,105}\\
+\multicolumn{3}{l}{\quad base forecasts (independent of $T$)} & \multicolumn{3}{c}{27\,591}\\
+\bottomrule
+\end{tabular}

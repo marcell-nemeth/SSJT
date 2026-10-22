@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article."
+title: "SSJT: Structurally Shrunk Junction Tree reconciliation of hierarchical forecasts"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/marcell-nemeth/SSJT"
+authors:
+  - family-names: Németh
+    given-names: Marcell
+  - family-names: Benedek
+    given-names: Gábor
+  - family-names: Szűcs
+    given-names: Gábor
+preferred-citation:
+  type: article
+  title: "Scalable Hierarchical Time Series Reconciliation via Structurally Shrunk Junction Trees"
+  authors:
+    - family-names: Németh
+      given-names: Marcell
+    - family-names: Benedek
+      given-names: Gábor
+    - family-names: Szűcs
+      given-names: Gábor
+  journal: "Neurocomputing (submitted)"

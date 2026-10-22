@@ -1,0 +1,6 @@
+grid, AutoETS: 640 runs, estimated lambda median 0.484, 10th-90th percentile 0.086-0.869
+BDG2: N = 856, pairs = 365940, pairs within a family = 13708
+BDG2 origin 0: correlation of residual correlations, first vs last 2000 h = 0.797
+BDG2 origin 1: correlation of residual correlations, first vs last 2000 h = 0.770
+BDG2 origin 2: correlation of residual correlations, first vs last 2000 h = 0.747
+BDG2 origin 3: correlation of residual correlations, first vs last 2000 h = 0.728

@@ -1,0 +1,13 @@
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l rrr rr cc cc}
+\toprule
+ & & & & \multicolumn{2}{c}{SSJT} & \multicolumn{2}{c}{MinT-Shrink / SSJT} & \multicolumn{2}{c}{MinT-Fix / SSJT}\\
+\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-10}
+Dataset & $N$ & $K$ & $T$ & time (ms) & mem. (MB) & time & mem. & time & mem.\\
+\midrule
+Labour & 57 & 25 & 423 & 1.96 & 0.053 & 0.5$^{\mathrm{D}}$ & \textbf{9.3}$^{\mathrm{K}}$ & 0.2$^{\mathrm{D}}$ & \textbf{2.0}$^{\mathrm{D}}$\\
+TourismSmall & 89 & 33 & 24 & 1.27 & 0.050 & 0.4$^{\mathrm{D}}$ & \textbf{1.1}$^{\mathrm{T}}$ & 0.3$^{\mathrm{D}}$ & 0.7$^{\mathrm{K}}$\\
+Wiki2 & 199 & 49 & 226 & 2.80 & 0.259 & 0.8$^{\mathrm{D}}$ & \textbf{6.0}$^{\mathrm{T}}$ & 0.3$^{\mathrm{D}}$ & 0.8$^{\mathrm{K}}$\\
+Traffic & 207 & 7 & 226 & 1.87 & 0.298 & \textbf{1.1}$^{\mathrm{D}}$ & \textbf{5.3}$^{\mathrm{T}}$ & 0.5$^{\mathrm{D}}$ & 0.4$^{\mathrm{K}}$\\
+\bottomrule
+\end{tabular}

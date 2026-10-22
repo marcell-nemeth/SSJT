@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SSJT: cached base forecasts and downloaded data are not versioned
+cache/
+data/*
+!data/README.md
+!data/datasets.zip

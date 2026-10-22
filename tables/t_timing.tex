@@ -1,0 +1,16 @@
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l rrr rr cc cc}
+\toprule
+ & & & & \multicolumn{2}{c}{SSJT} & \multicolumn{2}{c}{MinT-Shrink / SSJT} & \multicolumn{2}{c}{MinT-Fix / SSJT}\\
+\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-10}
+Dataset & $N$ & $K$ & $T$ & time (ms) & mem. (MB) & time & mem. & time & mem.\\
+\midrule
+TourismLarge & 433 & 129 & 108 & 3.09 & 0.471 & \textbf{1.2}$^{\mathrm{K}}$ & \textbf{1.6}$^{\mathrm{K}}$ & \textbf{2.1}$^{\mathrm{K}}$ & \textbf{1.1}$^{\mathrm{K}}$\\
+BDG2 daily & 856 & 83 & 364 & 4.39 & 0.620 & \textbf{1.7}$^{\mathrm{K}}$ & \textbf{5.9}$^{\mathrm{K}}$ & 0.6$^{\mathrm{K}}$ & \textbf{3.5}$^{\mathrm{K}}$\\
+LargeST daily & 8\,661 & 337 & 294 & 32.65 & 5.80 & \textbf{2.6}$^{\mathrm{K}}$ & \textbf{3.3}$^{\mathrm{K}}$ & \textbf{1.1}$^{\mathrm{K}}$ & \textbf{3.3}$^{\mathrm{K}}$\\
+BDG2 hourly & 856 & 83 & 2\,000 & 12.83 & 1.90 & \textbf{9.2}$^{\mathrm{K}}$ & \textbf{17}$^{\mathrm{K}}$ & \textbf{1.7}$^{\mathrm{K}}$ & \textbf{1.7}$^{\mathrm{K}}$\\
+LargeST hourly & 8\,661 & 337 & 2\,000 & 160.0 & 18.73 & \textbf{5.6}$^{\mathrm{K}}$ & \textbf{3.9}$^{\mathrm{K}}$ & \textbf{1.4}$^{\mathrm{K}}$ & \textbf{1.3}$^{\mathrm{K}}$\\
+M5 store tree & 30\,604 & 114 & 1\,092 & 326.9 & 77.40 & \textbf{3.9}$^{\mathrm{T}}$ & 0.8$^{\mathrm{K}}$ & 1.0$^{\mathrm{K}}$ & 0.8$^{\mathrm{K}}$\\
+M5 product tree & 42\,697 & 12\,207 & 1\,092 & 812.9 & 99.73 & \textbf{3.8}$^{\mathrm{T}}$ & \textbf{3.7}$^{\mathrm{T}}$ & \textbf{2.5}$^{\mathrm{T}}$ & \textbf{3.7}$^{\mathrm{T}}$\\
+\bottomrule
+\end{tabular}
